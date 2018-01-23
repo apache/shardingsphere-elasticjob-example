@@ -17,8 +17,8 @@
 
 package io.elasticjob.example.job.simple;
 
-import io.elasticjob.api.ShardingContext;
-import io.elasticjob.api.simple.SimpleJob;
+import io.elasticjob.lite.api.ShardingContext;
+import io.elasticjob.lite.api.simple.SimpleJob;
 import io.elasticjob.example.fixture.entity.Foo;
 import io.elasticjob.example.fixture.repository.FooRepository;
 import io.elasticjob.example.fixture.repository.FooRepositoryFactory;

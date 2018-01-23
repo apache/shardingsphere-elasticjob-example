@@ -15,9 +15,9 @@
  * </p>
  */
 
-package com.dangdang.ddframe.job.example;
+package io.elasticjob.cloud.example;
 
-import com.dangdang.ddframe.job.cloud.api.JobBootstrap;
+import io.elasticjob.cloud.api.JobBootstrap;
 
 public final class CloudJobMain {
     

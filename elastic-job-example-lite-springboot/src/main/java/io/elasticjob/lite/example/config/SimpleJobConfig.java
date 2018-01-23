@@ -17,15 +17,15 @@
 
 package io.elasticjob.lite.example.config;
 
-import io.elasticjob.api.simple.SimpleJob;
-import io.elasticjob.config.JobCoreConfiguration;
-import io.elasticjob.config.simple.SimpleJobConfiguration;
-import io.elasticjob.event.JobEventConfiguration;
+import io.elasticjob.lite.api.simple.SimpleJob;
+import io.elasticjob.lite.config.JobCoreConfiguration;
+import io.elasticjob.lite.config.simple.SimpleJobConfiguration;
+import io.elasticjob.lite.event.JobEventConfiguration;
 import io.elasticjob.example.job.simple.SpringSimpleJob;
 import io.elasticjob.lite.api.JobScheduler;
 import io.elasticjob.lite.config.LiteJobConfiguration;
 import io.elasticjob.lite.spring.api.SpringJobScheduler;
-import io.elasticjob.reg.zookeeper.ZookeeperRegistryCenter;
+import io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

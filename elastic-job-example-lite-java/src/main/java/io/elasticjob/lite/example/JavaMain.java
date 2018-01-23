@@ -17,19 +17,19 @@
 
 package io.elasticjob.lite.example;
 
-import io.elasticjob.config.JobCoreConfiguration;
-import io.elasticjob.config.dataflow.DataflowJobConfiguration;
-import io.elasticjob.config.script.ScriptJobConfiguration;
-import io.elasticjob.config.simple.SimpleJobConfiguration;
-import io.elasticjob.event.JobEventConfiguration;
-import io.elasticjob.event.rdb.JobEventRdbConfiguration;
+import io.elasticjob.lite.config.JobCoreConfiguration;
+import io.elasticjob.lite.config.dataflow.DataflowJobConfiguration;
+import io.elasticjob.lite.config.script.ScriptJobConfiguration;
+import io.elasticjob.lite.config.simple.SimpleJobConfiguration;
+import io.elasticjob.lite.event.JobEventConfiguration;
+import io.elasticjob.lite.event.rdb.JobEventRdbConfiguration;
 import io.elasticjob.example.job.dataflow.JavaDataflowJob;
 import io.elasticjob.example.job.simple.JavaSimpleJob;
 import io.elasticjob.lite.api.JobScheduler;
 import io.elasticjob.lite.config.LiteJobConfiguration;
-import io.elasticjob.reg.base.CoordinatorRegistryCenter;
-import io.elasticjob.reg.zookeeper.ZookeeperConfiguration;
-import io.elasticjob.reg.zookeeper.ZookeeperRegistryCenter;
+import io.elasticjob.lite.reg.base.CoordinatorRegistryCenter;
+import io.elasticjob.lite.reg.zookeeper.ZookeeperConfiguration;
+import io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenter;
 import org.apache.commons.dbcp.BasicDataSource;
 
 import javax.sql.DataSource;

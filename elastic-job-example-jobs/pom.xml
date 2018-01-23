@@ -11,7 +11,7 @@
     <dependencies>
         <dependency>
             <groupId>io.elasticjob</groupId>
-            <artifactId>elastic-job-common-core</artifactId>
+            <artifactId>elastic-job-lite-core</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>

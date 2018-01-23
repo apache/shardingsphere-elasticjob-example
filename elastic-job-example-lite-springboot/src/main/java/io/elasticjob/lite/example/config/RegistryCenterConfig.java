@@ -17,8 +17,8 @@
 
 package io.elasticjob.lite.example.config;
 
-import io.elasticjob.reg.zookeeper.ZookeeperConfiguration;
-import io.elasticjob.reg.zookeeper.ZookeeperRegistryCenter;
+import io.elasticjob.lite.reg.zookeeper.ZookeeperConfiguration;
+import io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.context.annotation.Bean;

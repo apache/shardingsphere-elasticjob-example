@@ -17,8 +17,8 @@
 
 package io.elasticjob.lite.example.config;
 
-import io.elasticjob.event.JobEventConfiguration;
-import io.elasticjob.event.rdb.JobEventRdbConfiguration;
+import io.elasticjob.lite.event.JobEventConfiguration;
+import io.elasticjob.lite.event.rdb.JobEventRdbConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

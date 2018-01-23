@@ -34,7 +34,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <artifactId>elastic-job-common-core</artifactId>
+                <artifactId>elastic-job-cloud-common</artifactId>
                 <groupId>io.elasticjob</groupId>
                 <version>${elastic-job.version}</version>
             </dependency>
